@@ -15,7 +15,7 @@ alert(arr.reduce((acc,c) => acc + c,0))
 
 // }
 // takeArray([5,6,7,7,8,9])
-let newArr = arr =>arr.map(n => n**2)
+let newArr = arr.map(n => Math.pow(n,2))
 alert(newArr)
 
 
